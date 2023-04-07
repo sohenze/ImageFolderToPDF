@@ -1,10 +1,8 @@
 # ImageFolderToPDF
----
 ImageFolderToPDF is a python script used to convert a folder of images into a pdf format. The script is non-recursive and only converts image files that are direct children of the targeted folder. Each image is added as a single page to the pdf file.
 
 ## Dependencies
 - [img2pdf](https://github.com/josch/img2pdf)
----
 
 ## Usage
 The absolute path to the folder is required as input.
