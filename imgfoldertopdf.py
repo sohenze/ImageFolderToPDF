@@ -9,7 +9,7 @@ if len(sys.argv) > 2:
     raise Exception("Input only 1 target directory")
 
 # Include list of extensions to convert here
-include_ext = [".jpg" , ".jpeg" , ".jpe" , ".jif" , ".jfif"]
+include_ext = [".jpg" , ".jpeg" , ".jpe" , ".jif" , ".jfif", ".png"]
 
 # Img Buffer
 imgs = []
