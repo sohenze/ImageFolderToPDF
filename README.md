@@ -8,11 +8,8 @@ ImageFolderToPDF is a python script used to convert a folder of images into a pd
 The absolute path to the folder is required as input.
 ```py imgfoldertopdf <absolute path>```
 
-The script only converts 1000 images per pdf file and automatically names it as
-```<directory name><file number>.pdf```.
-
-The first 1000 images will be added to ```directory1.pdf```. The second 1000 images will be added to ```directory2.pdf``` and so on.
-
-The threshold of 1000 can be modified through the ```threshold``` variable in the script.
+The script converts 1000 images per pdf file and automatically names it as
+```<directory name><file number>.pdf```. The threshold of 1000 can be modified through the ```threshold``` variable in the script.
+>The first 1000 images will be added to ```directory1.pdf```. The second 1000 images will be added to ```directory2.pdf``` and so on.
 
 By default, only ```[".jpg" , ".jpeg" , ".jpe" , ".jif" , ".jfif", ".png"]``` images with these extensions are converted. Extensions can be added/removed by modifying the ```include_ext``` list in the script.
